@@ -8,3 +8,5 @@ After being deleted by the Falcon security software, they can open the recovery 
 if the sample was deleted originally If the directory does not exist, the user will specify any directory to restore. When restoring,     
 it is not judged whether the restored directory has write permission for the current user. As a result, it can be restored     
 to C:\Windows\System32 to achieve local privilege escalation.  
+Before 19h1, any suffix file can be loaded by Diagnostics Hub Service to achieve local privilege escalation.
+Before 19h2, you can use the dui'xiang manager and directory link to create WindowsCoreDeviceInfo.dll. Finally, the Update Session Orchestrator service will execute WindowsCoreDeviceInfo.dll
